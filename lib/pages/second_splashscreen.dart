@@ -14,6 +14,7 @@ class SecondSplash extends StatelessWidget {
                 image: AssetImage(
                   'assets/background_image.png',
                   ),
+                  fit: BoxFit.cover
                 ),
             ),
           ),

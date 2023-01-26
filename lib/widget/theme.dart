@@ -21,8 +21,8 @@ TextStyle buttonTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
 );
 
-// First rate 
-Color whiteColor = Color(0xffFFFFFF)
+// First rate
+Color whiteColor = Color(0xffFFFFFF);
 
 TextStyle foodNameTextStyle = GoogleFonts.poppins(
   color: whiteColor,
@@ -38,7 +38,7 @@ TextStyle foodPriceTextStyle = GoogleFonts.poppins(
 TextStyle questionTextStyle = GoogleFonts.poppins(
   color: whiteColor,
   fontSize: 18,
-  fontWeight: FontWeight.w.500
+  fontWeight: FontWeight.w500,
 );
 
 TextStyle rateButtonTextStyle = GoogleFonts.poppins(
@@ -46,5 +46,3 @@ TextStyle rateButtonTextStyle = GoogleFonts.poppins(
   fontSize: 18,
   fontWeight: FontWeight.w600,
 );
-
-

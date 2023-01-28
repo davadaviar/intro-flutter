@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterday_one/pages/first_cart.dart';
 import 'package:flutterday_one/pages/first_empty.dart';
 import 'package:flutterday_one/pages/first_pricing.dart';
 import 'package:flutterday_one/pages/first_rate.dart';
@@ -14,7 +15,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPricing(),
+      home: FirstCart(),
     );
   }
 }

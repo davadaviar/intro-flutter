@@ -6,6 +6,7 @@ import 'package:flutterday_one/pages/first_rate.dart';
 import 'package:flutterday_one/pages/first_signin.dart';
 import 'package:flutterday_one/pages/first_splashscreen.dart';
 import 'package:flutterday_one/pages/second_empty.dart';
+import 'package:flutterday_one/pages/second_rate.dart';
 import 'package:flutterday_one/pages/second_signin.dart';
 import 'package:flutterday_one/pages/second_splashscreen.dart';
 import 'package:flutterday_one/pages/second_started.dart';
@@ -18,7 +19,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SecondEmpty(),
+      home: SecondRate(),
     );
   }
 }

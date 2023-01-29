@@ -89,7 +89,7 @@ class SecondRate extends StatelessWidget {
                       )),
                   onPressed: () {},
                   child: Text(
-                    'Submit',
+                    'Submit Review',
                     style: GoogleFonts.poppins(
                         color: Colors.white,
                         fontSize: 16,
